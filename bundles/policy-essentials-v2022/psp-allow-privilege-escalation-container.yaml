@@ -32,7 +32,7 @@ metadata:
         minimumTemplateLibraryVersion: '1.11.1'
       }"
 spec:
-  enforcementAction: dryrun
+  enforcementAction: deny
   match:
     kinds:
     - apiGroups:
